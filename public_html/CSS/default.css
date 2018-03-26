@@ -1,0 +1,79 @@
+header, footer {
+    box-sizing: border-box;
+    height: 2vh;
+    min-height:1 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+/*container {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    padding-bottom:2000px;
+}
+*/
+nav {
+    box-sizing: border-box;
+    position: fixed;
+    min-width: 100px;
+    width: 10vw;
+    border-right: 1px solid black;
+    padding: 0px;
+    background-color: white;
+    height: 96vh;
+}
+
+ul {
+    font-size: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+
+}
+
+content {
+    float: left;
+    margin-left: 10vw;
+    width: 80vw;
+    background-color: white;
+    height: 96vh;
+}
+
+fieldset {
+
+    width: 450px;
+    margin: auto;
+}
+
+.inputboxes {
+    float: left;
+    padding: 1em;
+    margin: auto;
+}
+
+.clearleft {
+    clear:left;
+    padding: 1em;
+}
